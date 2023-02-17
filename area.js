@@ -48,9 +48,9 @@ const tr = document.createElement("tr");
   
     <td>${serial}  </td>
     <td>${name} </td>
-    <td>${Area} CM</td>
+    <td>${Area} cm<sup>2</sup></td>
     <td>
-    <button class="btn btn-sm btn-red-500">Square</button>
+    <button class="btn btn-sm btn-red-500">convert to m<sup>2</s</button>
     </td>
    
    
@@ -124,3 +124,33 @@ ellipseCalculate.addEventListener('click',function(){
     const name=document.getElementById('ellipse').innerText;
     displaData(name,Area);
 })
+
+
+
+
+
+
+
+// function getRandomColor() {
+//     var letters = "0123456789ABCDEF";
+//     var color = "#";
+//     for (var i = 0; i < 6; i++) {
+//       color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+//   }
+
+//   var boxes = document.querySelectorAll(".card");
+//   for (var i = 0; i < boxes.length; i++) {
+//     boxes[i].addEventListener("mouseover", function () {
+//       this.dataset.originalColor = this.style.backgroundColor;
+//       this.style.backgroundColor = getRandomColor();
+//     });
+
+//     boxes[i].addEventListener("mouseleave", function () {
+//       this.style.backgroundColor = "white";
+//     });
+//   }
+
+
+
